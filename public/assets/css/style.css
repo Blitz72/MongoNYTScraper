@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+	background-color: #d7d7d7;
+  flex-shrink: 0;
+}
+
+/*#scrape-btn {
+	display: none;
+}*/
+
+#scrape-btn:hover {
+	cursor: pointer;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.jumbotron-fluid {
+  background-image: url('../images/news-1172463_960_720.jpg');
+  height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.boxed {
+	margin-top: 100px;
+}
+
+.home-header, .home-subheader {
+	text-shadow: 0px 0px 20px #000000;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+	color: #fff;
+}
+
+.home-header {
+	font-size: 60px;
+}
+
+.home-subheader {
+	font-size: 30px;
+}
+
+.footer {
+  /*flex-shrink: 0;*/
+  text-align: center;
+}
