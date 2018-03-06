@@ -1,15 +1,15 @@
 var express = require("express");
-var fetch = express.Router();
+var routerFetch = express.Router();
 
-fetch.get("/", function (req, res) {
+routerFetch.get("/", function (req, res) {
 	res.render("home", {});
 });
 
-fetch.get("/home", function (req, res) {
+routerFetch.get("/home", function (req, res) {
 	res.render("home", {});
 });
 
-fetch.get("/saved", function (req, res) {
+routerFetch.get("/saved", function (req, res) {
 	res.render("saved", {});
 });
 
@@ -26,4 +26,4 @@ fetch.get("/saved", function (req, res) {
 // 	});
 // });
 
-module.exports = fetch;
+module.exports = routerFetch;
