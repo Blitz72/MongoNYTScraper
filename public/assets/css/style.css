@@ -67,6 +67,14 @@ nav {
 	font-size: 30px;
 }
 
+.card {
+	margin-bottom: 10px;
+}
+
+.card-block {
+	padding: 10px;
+}
+
 .footer {
   flex-shrink: 0;
   text-align: center;
